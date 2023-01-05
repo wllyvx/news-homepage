@@ -11,7 +11,7 @@ export default function Hero() {
         </div>
         <div className="max-w-[22rem]">
           <p className="text-dark-grayish-blue text-sm tracking-wide leading-relaxed mb-6 md:mb-9">{data.headerText.desc}</p>
-          <button className="bg-soft-red text-white text-sm font-bold uppercase tracking-[0.3rem] py-[0.85rem] px-8">Read More</button>
+          <button className="bg-soft-red hover:bg-black hover:text-white transition-all ease-in-out duration-200 text-white text-sm font-bold uppercase tracking-[0.3rem] py-[0.85rem] px-8">Read More</button>
         </div>
       </div>
     </div>

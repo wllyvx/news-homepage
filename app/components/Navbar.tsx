@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const menuItems = (title:string)=>{
   return (
-    <a href="#"><li>{title}</li></a>
+    <a href="#"><li className='hover:text-soft-red'>{title}</li></a>
   )
 }
 

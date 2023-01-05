@@ -8,7 +8,7 @@ export default function LatestNews() {
       <ul className="text-white">
         {data.latestNews.map((news, index) => (
           <li key={news.id} className={`${index === data.latestNews.length - 1 ? '' : 'border-b-dark-grayish-blue border-b pb-8'} pt-7`}>
-            <h2 className="text-xl font-bold mb-2">{news.title}</h2>
+            <a href="#"><h2 className="text-xl font-bold mb-2 hover:text-soft-orange">{news.title}</h2></a>
             <h3 className="text-grayish-blue text-sm tracking-wider leading-[1.7]">{news.subtitle}</h3>
           </li>
         ))}
