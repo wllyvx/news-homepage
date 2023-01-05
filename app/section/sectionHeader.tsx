@@ -7,8 +7,10 @@ export default function SectionHeader() {
   return (
     <header>
       <Navbar />
-      <Hero />
-      <LatestNews />
+      <div className="block md:flex md:justify-center md:items-start md:gap-8">
+        <Hero />
+        <LatestNews />
+      </div>
     </header>
   );
 }
