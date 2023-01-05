@@ -9,7 +9,7 @@ export default function SectionArticle() {
             <img src={`./images/${article.imgPath}`} alt={article.title} className="w-[100px] h-auto" />
             <div className="space-y-2 md:space-y-0">
               <h4 className="text-3xl text-grayish-blue font-extrabold">{article.number}</h4>
-              <h2 className="text-lg text-very-dark-blue font-bold">{article.title}</h2>
+              <a href="#"><h2 className="text-lg text-very-dark-blue font-bold hover:text-soft-orange">{article.title}</h2></a>
               <h3 className="text-dark-grayish-blue">{article.subtitle}</h3>
             </div>
           </li>
