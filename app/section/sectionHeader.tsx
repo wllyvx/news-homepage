@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
+import LatestNews from "../components/LatestNews";
 import Navbar from "../components/Navbar";
 
 export default function SectionHeader() {
@@ -7,6 +8,7 @@ export default function SectionHeader() {
     <header>
       <Navbar />
       <Hero />
+      <LatestNews />
     </header>
   );
 }
