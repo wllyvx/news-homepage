@@ -19,6 +19,29 @@ const data = {
             title: 'Is VC Funding Drying Up?',
             subtitle: 'Private funding by VC firms is down 50% YOY. We take a look at what that means.'
         },
+    ],
+    articles: [
+        {
+            id: '1',
+            number: '01',
+            title: 'Reviving Retro PCs',
+            subtitle: 'What happens when old PCs are given modern upgrades?',
+            imgPath: 'image-retro-pcs.jpg',
+        },
+        {
+            id: '2',
+            number: '02',
+            title: 'Top 10 Laptops of 2022',
+            subtitle: 'Our best picks for various needs and budgets.',
+            imgPath: 'image-top-laptops.jpg'
+        },
+        {
+            id: '3',
+            number: '03',
+            title: ' The Growth of Gaming',
+            subtitle: 'How the pandemic has sparked fresh opportunities.',
+            imgPath: 'image-gaming-growth.jpg'
+        },
     ]
 }
 
