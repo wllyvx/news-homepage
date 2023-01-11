@@ -3,7 +3,7 @@ import data from "../../data/data"
 export default function SectionArticle() {
   return (
     <div className="my-16">
-      <ul className="grid grid-cols-1 md:grid-cols-3">
+      <ul className="grid grid-cols-1 gap-5 md:grid-cols-3">
         {data.articles.map((article) => (
           <li key={article.id} className="flex items-start space-x-6 grow">
             <img src={`./images/${article.imgPath}`} alt={article.title} className="w-[100px] h-auto" />
